@@ -48,6 +48,7 @@
   },
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy-in-action": "gatsby build --prefix-paths && gh-pages -d public --repo=https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git",
     "build": "gatsby build",
     "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
