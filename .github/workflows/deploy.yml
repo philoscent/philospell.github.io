@@ -4,7 +4,12 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # 수동 실행 가능
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -19,7 +24,7 @@ jobs:
           node-version: '20'
 
       - name: 의존성 설치
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Gatsby 빌드
         run: npm run build -- --prefix-paths
@@ -28,8 +33,13 @@ jobs:
         run: |
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
           git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+
+          # GitHub Actions에서 원격 저장소 URL을 명확하게 설정
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
           export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
           export GITHUB_REPOSITORY=${{ github.repository }}
+
           npm run deploy-in-action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
