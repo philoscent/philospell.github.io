@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://https://philospell.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Mar 2025 09:13:01 GMT</lastBuildDate><item><title><![CDATA[bello, terra]]></title><description><![CDATA[test test222 test333]]></description><link>https://https://philospell.github.io/bello-terra/</link><guid isPermaLink="false">https://https://philospell.github.io/bello-terra/</guid><pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;test&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;test222&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;test333&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[banana~]]></title><description><![CDATA[내용도 나오는지 확인해보자~ 테스트용]]></description><link>https://https://philospell.github.io/banana/</link><guid isPermaLink="false">https://https://philospell.github.io/banana/</guid><pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;내용도 나오는지 확인해보자~&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;테스트용&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://https://philospell.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Mar 2025 13:07:20 GMT</lastBuildDate><item><title><![CDATA[더 시스템을 읽고]]></title><description><![CDATA[본 것 깨달은 것 적용할 것]]></description><link>https://https://philospell.github.io/banana/</link><guid isPermaLink="false">https://https://philospell.github.io/banana/</guid><pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;본 것&lt;/p&gt;
+&lt;p&gt;깨달은 것&lt;/p&gt;
+&lt;p&gt;적용할 것&lt;/p&gt;</content:encoded></item><item><title><![CDATA[bello, terra]]></title><description><![CDATA[첫 글이다. 앞으로 공부한 내용들, 새로운 아이디어와 만들어볼 것들 정리해나가면서 블로그 개발 그 자체에도 신경써서 하나씩 더해나가보자. 뭐 부족하면 부족한대로~ 차근히 해나가보자.]]></description><link>https://https://philospell.github.io/bello-terra/</link><guid isPermaLink="false">https://https://philospell.github.io/bello-terra/</guid><pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;첫 글이다.&lt;/p&gt;
+&lt;p&gt;앞으로 공부한 내용들, 새로운 아이디어와 만들어볼 것들 정리해나가면서 블로그 개발 그 자체에도 신경써서 하나씩 더해나가보자.&lt;/p&gt;
+&lt;p&gt;뭐 부족하면 부족한대로~&lt;/p&gt;
+&lt;p&gt;차근히 해나가보자.&lt;/p&gt;</content:encoded></item></channel></rss>
