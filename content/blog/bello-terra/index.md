@@ -1,6 +1,6 @@
 ---
 title: "bello, terra"
-date: "2025-06-27"
+date: "2025-06-28"
 slug: "bello,-terra"
 ---
 
