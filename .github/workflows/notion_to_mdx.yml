@@ -1,8 +1,8 @@
 name: Fetch Notion Content and Commit
 
 on:
-  schedule:
-    - cron: '0 13 * * *'  # 매일 밤 10시 (KST)
+  # schedule:
+    # - cron: '0 13 * * *'  # 매일 밤 10시 (KST)
   workflow_dispatch:  # 수동 실행 트리거
 
 permissions:
